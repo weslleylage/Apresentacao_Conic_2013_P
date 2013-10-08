@@ -45,6 +45,9 @@ pre {
   border-left: 3px solid #ccc;
 }
 </style>
+<h1>Apresentação para o Conic</h1>
+Esta apresentação e fruto do trabalho colaborativo entre Israel Alves e Wesley Lage https://github.com/Feniux, esta apresentação aborda alguns tópicos relacionados em nosso artivo sobre a 2 - A utilização de sistemas distribuídos no desenvolvimento de material instrucional para a inclusão digital do projeto Aedu-Linux.
+O modelo de apresentação foi utilizado apartir do google io. 
 
 <h1><img src="images/io2012_logo.png"> HTML5 Slide Template</h1>
 
