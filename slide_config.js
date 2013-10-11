@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'A utilização de sistemas distribuídos </br>no desenvolvimento ',
-    subtitle: 'A tão sonhada web semântica de Tim Berners-Lee',
+    title: 'A utilização de sistemas distribuídos no desenvolvimento </br> de material instrucional para a inclusão digital</br> do projeto Aedu-linux ',
+    subtitle: 'Autores: Weslley Lage e Israel Alves',
     //eventInfo: {
     //  title: 'Google I/O',
     //  date: '6/x/2013'
@@ -22,12 +22,13 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Israel Alves',
-    company: 'Desenvolvedor Front-End<br>AC Portal',
+    name: 'Orientador',
+    company: 'Sandro Renado Dias',
     gplus: 'http://plus.google.com/1234567890',
     twitter: '@yourhandle',
     www: 'http://about.me/israelalves',
-    github: 'https://github.com/alvesnogueira'
+    www: 'http://about.me/wesllyelage',
+    github: 'https://github.com/alvesnogueira/Apresentacao_Conic_2013'
   }/*, {
     name: 'Second Name',
     company: 'Job Title, Google',
