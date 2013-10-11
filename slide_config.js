@@ -1,7 +1,7 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'O que e o HTML5',
+    title: 'A utilização de sistemas distribuídos </br>no desenvolvimento ',
     subtitle: 'A tão sonhada web semântica de Tim Berners-Lee',
     //eventInfo: {
     //  title: 'Google I/O',
