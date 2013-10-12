@@ -1336,19 +1336,25 @@ aside.gdbar img {
   line-height: 1.4;
   letter-spacing: -2px;
   color: #515151;
+  margin-left: -12%;
+  margin-bottom: 6%;
+  text-align: justify;
 }
 /* line 898, ../scss/default.scss */
 .title-slide hgroup h2 {
   font-size: 34px;
   color: darkgrey;
   font-weight: inherit;
+  margin-left: -12%;
+  margin-bottom: 2%;
 }
 /* line 904, ../scss/default.scss */
 .title-slide hgroup p {
   font-size: 20px;
   color: #797979;
   line-height: 1.3;
-
+  margin-left: -12%;
+  margin-bottom: 10%;
 }
 
 /* line 913, ../scss/default.scss */
