@@ -1615,3 +1615,7 @@ Modificações
 .clear{
   clear: both;
 }
+.video{
+   width: 600px;
+   height: 400px;
+}
