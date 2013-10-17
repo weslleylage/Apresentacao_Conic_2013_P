@@ -48,20 +48,6 @@ URL: https://code.google.com/p/io-2012-slides
       
     </slide>
 
-  <!-- <slide>
-    <hgroup>
-      <h2>HTML5 ~= HTML + CSS + JS</h2>
-    </hgroup>
-    <article>
-      <ul class="build">
-        <h1>Offline / Storage</li>
-        <li>Com HTML5, páginas da web pode armazenar dados localmente no navegador do usuário </li>
-        <li>Realtime / Communication</li>
-        <li>Semantics & Markup</li>
-        <li>Graphics / Multimedia</li>
-      </ul>
-    </article>
-  </slide> -->
   <slide>
     <hgroup>
       <h2>Projeto Conhecendo o Linux(AEDU-LINUX)</h2>
@@ -75,17 +61,11 @@ URL: https://code.google.com/p/io-2012-slides
         </ul>
     </article><br>
     <article class="build">
-      <p>Nessecidades</p>
+      <p>Necessidades</p>
       <ul class="build">
         <li>Elaborar conteúdo</li>
         <li>Encontrar recursos para a elaboração</li>
       </ul>
-      <!-- <p>Another list, but items fade as they build:</p>
-      <ul class="build fade">
-        <li>Hover over me!</li>
-        <li>Hover over me!</li>
-        <li>Hover over me!</li>
-      </ul> -->
     </article>
   </slide>
 
@@ -123,13 +103,13 @@ URL: https://code.google.com/p/io-2012-slides
       
     </article>
   </slide>
-
   <slide>
   <aside class="note">
   <section>
-  <!-- inserir video -->
-  <video controls width="600px" height="400px">
-  <source id="" src="images/test.mp4" type=""></source>
+  <video controls poster="images/Pic.png" class="video">
+  <source src="images/The Dragonborn Comes - Skyrim Bard Song and Main Theme Female Cover_libtheora.ogv" type="video/ogg" />
+  <video controls poster="images/Pic.png" class="video">
+  <source src="video/conhecimento.mp4" type=""></source>
   </video>
   </section>
   </aside>
@@ -141,161 +121,29 @@ URL: https://code.google.com/p/io-2012-slides
         <li>DataCenters<br><br></li>
         <li>BIGTABLE<br><br></li>
         <li>Aplicativos<br><br></li>
-      </ul>
-    </article><br>
-    <!--<article>
-      <section>
-       <form oninput="total.value = (nights.valueAsNumber * 99) + 
-       ((guests.valueAsNumber - 1) * 10)">
-       <div class="control-group">
-        <label class="control-label">Full name:</label>
-        <div class="controls">
-          <input type="text" id="Nome Completo" name="full_name" placeholder="Nome" required><br>
-        </div>
-      </div>
-      <div class="control-group">
-        <label>Email</label>
-        <div class="controls">
-          <input type="email" id="email_addr" name="email_addr" required><br>
-        </div>
-      </div>
-      <div class="control-group">
-        <label>Repita o enderço de email</label>
-        <div class="controls">
-          <input type="email" id="email_addr_repeat" name="email_addr_repeat" required 
-          oninput="check(this)"><br>
-        </div>
-      </div>
-      <div class="control-group">
-        <label>Data de chegada</label>
-        <div class="controls">
-          <input type="date" id="arrival_dt" name="arrival_dt" required><br>
-        </div>
-      </div>
-      <div class="control-group">
-        <label>Numero de Noites (rooms are $99.00 per night):</label>
-        <div class="controls">
-          <input type="number" id="nights" name="nights" value="1" min="1" max="30" required><br>
-        </div>
-      </div>
-      <div class="control-group">
-      <label>Number of guests (each additional guest adds $10.00 per night):</label>
-      <div class="controls">
-      <input type="number" id="guests" name="guests" value="1" min="1" max="4" required><br>
-</div>
-      </div>
-
-      <div class="control-group">
-      <label>Estimativa total</label>
-      $<output id="total" name="total">99</output>.00
-      <br><br>
-       </div>
-
-      <label>Codigo promocional</label>
-      <input type="text" id="promo" name="promo" pattern="[A-Za-z0-9]{6}" 
-      title="Promo codes consist of 6 alphanumeric characters."><br>
-
-      <input type="submit" value="Request Reservation" /> 
-    </form>
-
-    <script>
-      function check(input) {
-        if (input.value != document.getElementById('email_addr').value) {
-          input.setCustomValidity('The two email addresses must match.');
-        } else {
-    // input is valid -- reset the error message
-    input.setCustomValidity('');
-  }
-}
-</script>
-</section>
-</article>
-<aside class="note">
-  <section>
-    <ul>
-      <pre  class="prettyprint" data-lang="css"><code>
-        &lt;form oninput="total.value = (nights.valueAsNumber * 99) + 
-        ((guests.valueAsNumber - 1) * 10)">
-
-        &lt;label>Full name:&lt;/label>
-        &lt;input type="text" id="full_name" name="full_name" placeholder="Jane Doe" required>
-
-        &lt;label>Email address:&lt;/label>
-        &lt;input type="email" id="email_addr" name="email_addr" required>
-
-        &lt;label>Repeat email address:&lt;/label>
-        &lt;input type="email" id="email_addr_repeat" name="email_addr_repeat" required 
-        oninput="check(this)">
-
-        &lt;label>Arrival date:&lt;/label>
-        &lt;input type="date" id="arrival_dt" name="arrival_dt" required>
-
-        &lt;label>Number of nights (rooms are $99.00 per night):&lt;/label>
-        &lt;input type="number" id="nights" name="nights" value="1" min="1" max="30" required>
-
-        &lt;label>Number of guests (each additional guest adds $10.00 per night):&lt;/label>
-        &lt;input type="number" id="guests" name="guests" value="1" min="1" max="4" required>
-
-        &lt;label>Estimated total:&lt;/label>
-        $&lt;output id="total" name="total">99&lt;/output>.00
-        &lt;br>&lt;br>
-
-        &lt;label>Promo code:&lt;/label>
-        &lt;input type="text" id="promo" name="promo" pattern="[A-Za-z0-9]{6}" 
-        title="Promo codes consist of 6 alphanumeric characters.">
-
-        &lt;input type="submit" value="Request Reservation" /> 
-      </code>
-    </pre>
-    <div class="clear"></div>
-  </form>
-
-  <script>
-    function check(input) {
-      if (input.value != document.getElementById('email_addr').value) {
-        input.setCustomValidity('The two email addresses must match.');
-      } else {
-    // input is valid -- reset the error message
-    input.setCustomValidity('');
-  }
-}
-</script>
-
-</ul>
-
-</section>
-</aside>-->
+      </ul>   
+    </article><br><br>
+    <article class="build">
+      <p>Projeto Conhecendo o Linux.</p>
+    </article>
+    <p class="ptonote">press P to note.</p>
 </slide>
 <slide>
   <hgroup>
-    <h2>Novas tags com HTML5</h2>
+    <h2>Conclusão</h2>
   </hgroup>
   <article class="smaller">
-
     <ul class="build fade">
 
-      <li><del><code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</code></del></li>
-      <li><code>&lt;!DOCTYPE html&gt;</code></li>
-      <li><del><code>&lt;div id="header"&gt;</code></del></li>
-      <li><code>&lt;header&gt;</code></li>
-      <li><del><code>&lt;div id="nav"&gt;</code></del></li>
-      <li><code>&lt;nav&gt;</code></li>
-      <li><del><code>&lt;div id="section"&gt;</code></del></li>
-      <li><code>&lt;section&gt;</code></li>
-      <li><del><code>&lt;div id="article"&gt;</code></del></li>
-      <li><code>&lt;article&gt;</code></li>
-      <li><del><code>&lt;div id="aside"&gt;</code></del></li>
-      <li><code>&lt;aside&gt;</code></li>
-      <li><del><code>&lt;div id="footer"&gt;</code></del></li>
-      <li><code>&lt;footer&gt;</code></li>
-      <li> <article>
-        <p>Press 'p' to toggle speaker notes.</p>
-      </article></li>
-
+      <li>Colaboratividade<br><br></li>
+      <li>Melhor gerenciamento de tempo<br><br></li>
+      <li>Otimização de produtividade<br><br></li>
+      <li>Controle de versões<br><br></li>
+      <li>Repositório em nuvem<br><br></li>
+      <li>Acesso dinâmico e simultâneo<br><br></li>
     </ul>
-
   </article>
-  <aside class="note">
+  <!--<aside class="note">
     <section>
       <ul>
         <li>Alguns navegagores mais antigos ainda não suportam as novas tags do html5.</li>
@@ -304,53 +152,39 @@ URL: https://code.google.com/p/io-2012-slides
       </ul>
       <p><b>Consulte quais tag são suportadas pelos navegadores pelo <a href="http://caniuse.com/">caniuse.com</a></b></p>
     </section>
-  </aside>
+  </aside>-->
 </slide>
 <slide>
   <hgroup>
-    <h2>Uma Breve descrição sobre as novas tags</h2>
+    <h2>Referências</h2>
   </hgroup>
   <article>
-    <ul class="build fade">
-      <pre class="prettyprint" data-lang="html">&lt;header> &lt;nav> &lt;section> &lt;article> &lt;aside> &lt;footer></pre>
-      <li>O elemento header pode ser utilizado para agrupar índices de conteúdo, campos de busca, cabeçalho do site com titulo ou logo.</li>
-      <li>
-        <p>O elemento nav é utilizado para representar uma seção da página que contém links para outras partes do site.normalvmente utilizados em menus de navegação.</p>
-      </li>
-      <li>
-        <p>A tag section define uma nova seção do site, uma área genérica do site. Por exemplo a home pode ser dividida em destaque, novidades, chamada para conteúdo completo.</p>
-      </li>
-      <li>
-        <p>O elemento article é utilizado para representar o conteúdo do site propriamente dito, como posts, artigos e outros textos em geral.</p>
-      </li>
-      <li>
-        <p>A tag aside especifica o conteúdo relacionado com o artigo dentro de um artigo ou página web</p>
-      </li>
-      <li>
-        <p>A tag footer especifica um rodapé para a seção de uma página</p>
-      </li>
+    <ul class="build_fax">
+      <li>RIBEIRO, Jéssica Anne Simplício; MUNIZ, Josiane Dias. Implantação do curso de Linux em escolas públicas: Projeto Conhecendo o Linux. 2012. 99 p. Trabalho de Conclusão de Curso (Bacharelado em Sistemas de Informação)- Faculdade Anhanguera de Belo Horizonte, Belo Horizonte, 2012.<br><br></li>
+      <li>TANNENBAUM, A. S; STEEN, M. V.. “Sistemas Distribuídos: Princípios e paradigmas”. 2ª edição. Ed. Pearson/Prentice Hall. 2007.
+      <br><br></li>
+      <li>COULOURIS, George; DOLLIMORE, Jean; KINDBERG, Tim. “Sistemas Distribuídos: Conceitos e Projetos”. 4ª edição. Ed. Bookman. 2007.<br><br></li>
+       <li>CURA, Hugo. Google lança serviço cloud: Google Drive. 2012. Disponível em: <http://www.pplware.sapo.pt/internet/google-lanca-servico-cloud-google-drive/>. Acesso em: 05 de dezembro de 2012.<br><br></li>
     </ul>
 
   </article>
 </slide>
 
-<slide class="fill nobackground nobackground2 ">
-  <h1>  Antigamente sem a semântica do html5</h1>
-  <div class="marcacaodiv box_round">
-    <div class="marcaheder box_round"><p>div classs=header</p></div>
-    <div class="marcanav box_round">div classs=nav</div>
-    <div class="marcasection box_round ">
-      <p>div class=section</p>
-      <div class="marcaarticle box_round"><p>div class=article</p></div>
-    </div>
-    <div class="marcaasside box_round"><p>div class=asside</p></div>
-    <div class="clear"></div>
-    <div class="marcafooter box_round"><p>div class=footer</p></div>
+<slide>
+ <article>
+    <ul class="build_fax">
+      <li>Kunal Mittal. Extend single sign-on to the cloud. 2012. Disponível em: <http://www.ibm.com/developerworks/cloud/library/cl-singlesignoncloud/>. Acesso em: 19 de junho de 2013<br><br></li>
+      <li>GHEMAWAT, Sanjay; GOBIOFF, Howard; LEUNG, Shun-Tak. - Google Inc. “The Google file system”. 2003.<br><br></li>
+      <li>PERL, Sharon E.; SELTZER, Margo. - Google Inc. Harvard University & Oracle Corporation. “Data Management for Internet-Scale Single-Sign-On”.<br><br></li>
+      <li>CHANG, Fay; DEAN, Jeffrey; GHEMAWAT, Sanjay; HSIEH, Wilson C.; WALLACH, Deborah A.; BURROWS, Mike; CHANDRA, Tushar; FIKES, Andrew; GRUBER, Robert E.. - Google, Inc. “BigTable: A Distributed Storage System for Structured Data”. 2006<br><br></li>
+      <li>PRISCO, Roberto De; LAMPSON, Butler; LYNCH, Nancy. - MIT Laboratory for ComputerScience. “Revisiting the Paxos algorithm”.<br><br></li>
+      <li>MACHADO, Francis B.; MAIA, Luiz P.. “Arquitetura de Sistemas Operacionais”. 4ª edição. Ed. LTC. 2007.<br><br></li>
+       </ul>
 
-  </div>
-
-  <footer class="source white"><img src="images/logomini.png"></footer>
+  </article>
 </slide>
+
+<!--
 <div class="clear"> </div>
 <slide class="fill nobackground">
   <h1>Com o html5</h1>
@@ -427,7 +261,7 @@ URL: https://code.google.com/p/io-2012-slides
       </ul> -->
     </article>
   </slide>
-
+<!--
   <slide hidden>
     Hidden slides are left out of the presentation.
   </slide>
@@ -496,7 +330,7 @@ URL: https://code.google.com/p/io-2012-slides
        <p class="atv"><b>Alvo / Contexto = Responsividade</b></p>
      </section>
    
-   </aside> -->
+   </aside> 
  </article>
  <article>
   <p>Press 'p' to toggle speaker notes.</p>
@@ -603,17 +437,26 @@ URL: https://code.google.com/p/io-2012-slides
   </article>
   <p class="auto-fadein" data-config-contact>
     <!-- populated from slide_config.json -->
-  </p>
+  
 </slide>
-
+<!--
 <slide class="logoslide dark nobackground">
   <article class="flexbox vcenter">
     <span><img src="images/images/HTML5_Logo.png"></span>
   </article>
 </slide>
+-->
 
 <slide class="backdrop"></slide>
+<slides class="layout-widescreen">
 
+    <slide class="logoslide nobackground nobackground2">
+      <article class="flexbox vcenter">
+        <span><img src="images/anhanguera_e_pic.png"></span>
+       
+      </article>
+
+    </slide>
 </slides>
 
 <script>
