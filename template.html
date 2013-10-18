@@ -106,10 +106,12 @@ URL: https://code.google.com/p/io-2012-slides
   <slide>
   <aside class="note">
   <section>
+
   <video controls poster="images/Pic.png" class="video">
   <source src="images/The Dragonborn Comes - Skyrim Bard Song and Main Theme Female Cover_libtheora.ogv" type="video/ogg" />
-  <video controls poster="images/Pic.png" class="video">
-  <source src="video/conhecimento.mp4" type=""></source>
+
+  <!-- inserir video -->
+
   </video>
   </section>
   </aside>
@@ -121,6 +123,7 @@ URL: https://code.google.com/p/io-2012-slides
         <li>DataCenters<br><br></li>
         <li>BIGTABLE<br><br></li>
         <li>Aplicativos<br><br></li>
+
       </ul>   
     </article><br><br>
     <article class="build">
@@ -184,268 +187,8 @@ URL: https://code.google.com/p/io-2012-slides
   </article>
 </slide>
 
-<!--
-<div class="clear"> </div>
-<slide class="fill nobackground">
-  <h1>Com o html5</h1>
-  <div class="marcacaodiv box_round">
-    <div class="marcaheder box_round"><p>header</p></div>
-    <div class="marcanav box_round">nav</div>
-    <div class="marcasection box_round ">
-      <p>section</p>
-      <div class="marcaarticle box_round"><p>article</p></div>
-    </div>
-    <div class="marcaasside box_round"><p>asside</p></div>
-    <div class="clear"></div>
-    <div class="marcafooter box_round"><p>footer</p></div>
-
-  </div>
-
-  <footer class="source white"><img src="images/logomini.png"></footer>
-</slide>
-
-<slide class="logoslide nobackground">
-  <article class="flexbox vcenter">
-    <span><img src="images/marvin_quetions.png"></span>
-    <span><h1>Duvidas</h1></span>
-  </article>
-</slide>
 
 
-<slide class="logoslide nobackground">
-  <article class="flexbox vcenter">
-    <span><img src="images/css3logo.png"></span>
-    <span><h1><b> Design responsivo com css3</b></h1> </span>
-  </article>
-
-</slide>
-
-<slide class="fill nobackground current ">
-  <aside class="gdbar"><img src="images/css3logo.png"></aside>
-  <hgroup class="auto-fadein">
-    <h2>Desing responsivo</h2>
-    <h3>Como desenvolver um layout para diferentes dispoisitvos</h3>
-  </hgroup>
-  <article class="flexbox vcenter">
-    <span></span>
-  </article>
-</slide>  
-
-
-
-<slide>
-  <hgroup>
-    <h2>Responsive Design</h2>
-  </hgroup>
-  <article>      
-    <ul class="build fade">
-      <ul>
-        <p>O que design responivo?</p>
-        <li>Para alguns e um termo novo mas não se engane ele já esta em discurção a muito tempo</li>
-      </ul>
-      <ul>
-        <p>Porque usar?</p>
-        <li>Nos tempos atuais, além dos desktops e notebooks, é possível acessar a internet através de smartphones, tablets, televisores</li>
-      </ul>
-      <ul>
-        <p>Como fazer?</p>
-        <li>O Design Responsivo usa Media Queries.São expressões que direcionam o visitante do seu site para uma folha de estilos diferente de acordo com o dispositivo que ele estiver utilizando.</li>
-
-      </ul>
-
-      <!-- <p>Another list, but items fade as they build:</p>
-      <ul class="build fade">
-        <li>Hover over me!</li>
-        <li>Hover over me!</li>
-        <li>Hover over me!</li>
-      </ul> -->
-    </article>
-  </slide>
-<!--
-  <slide hidden>
-    Hidden slides are left out of the presentation.
-  </slide>
-  <slide>
-    <article>
-      <pre class="prettyprint" data-lang="css">
-       <p> /* Smartphone em modo retrato */</p>
-       @media only screen and (max-width : 320px) {
-       /* estilos */
-     }
-
-
-     /* iPads (retrato e paisagem) */
-     @media only screen
-     and (min-device-width : 768px)
-     and (max-device-width : 1024px) {
-     /* estilos */
-   }
-
-
- </pre>
-</ul>
-<aside class="note">
-  <section>
-    <p><b>Lembre-se que para um design responsivo de qualidade e preciso utiliar também</b></p>
-    <ul>
-      <li></li>
-      <li>Layout Flexivel</li>
-      <li>Imagens e Mídias flexíveis</li>
-      <li>Media Queries</li>
-    </ul>
-
-  </section>
-</aside>
-</article>
-</slide>
-
-<slide>
-  <hgroup>
-    <h2>Layout fuido ou flexivel</h2>
-  </hgroup>
-  <article>
-    <p>Apátir de agora você vai ouvir falar muito sobre isso</p>
-    <ul class="build">
-      <li>Aprenda usar valores realativos ao inves de fixos</li>
-      <li>Conheça alguns frameworks que podem ajudar muito</li>
-      <li><a href="http://getbootstrap.com/2.3.2/">twitter Bootstrap</a></li>
-      <li><a href="http://foundation.zurb.com/">foundation</a></li>
-    </ul>
-   <!--  <aside class="note">
-     <section>
-   
-       <ul>
-         <li></li>
-         <li >Para cacular uma medida relativa considere sempre o objeto pai</li>
-         <ul>
-           <li>Exemplo</li>
-           <pre class="prettyprint" data-lang="css">
-             <li>.waraper{ width:960px;}.aside{width:300px;}</li>
-             <li>.aside{ width:31.25%;}</li>
-             <li>body{font-size:16px;},aside{font-size:18px;}</li>
-             <li>aside{font-size:1.125em;}</li>
-           </pre> 
-         </ul>          
-       </ul>
-       <p class="atv"><b>Alvo / Contexto = Responsividade</b></p>
-     </section>
-   
-   </aside> 
- </article>
- <article>
-  <p>Press 'p' to toggle speaker notes.</p>
-</article>
-<aside class="note">
-  <section>
-
-    <p>Para cacular uma medida relativa considere sempre o objeto pai</p>
-    <pre class="prettyprint" data-lang="css">
-      <p>Exemplo</p>
-
-      .waraper{ width:960px;.aside{width:300px;}
-      .aside{ width:31.25%;}
-      body{font-size:16px;},aside{font-size:18px;}
-      aside{font-size:1.125em;}
-
-
-      <p class="atv"><b>Alvo  ÷ Contexto = Responsividade</b></p>
-
-    </pre> 
-  </section>
-
-</aside>
-</slide>
-
-<slide>
-  <hgroup>
-    <h2>Layout imagens flexiveis</h2>
-  </hgroup>
-  <article>
-    <p>Agora que entendemos o conceito isso ficou facil!</p>
-    <ul class="build">
-      <li>Digamos que quero utilizar uma imagem de 280px por 100px</li>
-      <li>Basta apenas devinir no css os atributos width=100% e heigth auto</li>
-    </ul>
-    
-  </article>
-  <article>
-    <p>Press 'p' to toggle speaker notes.</p>
-  </article>
-  <aside class="note">
-    <pre  class="prettyprint" data-lang="css">
-      <ul>
-       <li>img,
-        embed,
-        object,
-        iframe,
-        video {
-        max-width: 100%;
-      }
-    </li>
-  </ul>
-</pre>
-
-
-</aside>
-
-</slide>
-
-
-
-
-
-<slide class="fill nobackground" style="background-image: url(images/sky.jpg)">
-  <hgroup>
-    <h2 class="white">Full Image (with Optional Header)</h2>
-  </hgroup>
-  <footer class="source white">www.flickr.com/photos/25797459@N06/5438799763/</footer>
-</slide>
-
-<slide class="segue dark quote nobackground">
-  <aside class="gdbar right bottom"><img src="images/HTML5_Logo.png"></aside>
-  <article class="flexbox vleft auto-fadein">
-    <q>
-      This is an example of quote text.
-    </q>
-    <div class="author">
-      Name<br>
-      Company
-    </div>
-  </article>
-</slide>
-
-<slide>
-  <hgroup>
-    <h2>Slide with Iframe</h2>
-  </hgroup>
-  <article>
-    <iframe data-src="http://www.google.com/doodle4google/resources/history.html"></iframe>
-  </article>
-</slide>
-
-<slide>
-  <article>
-    <iframe data-src="http://www.google.com/doodle4google/resources/history.html"></iframe>
-  </article>
-</slide>
-
-<slide class="thank-you-slide segue nobackground">
-  <aside class="gdbar right"><img src="images/HTML5_Logo.png"></aside>
-  <article class="flexbox vleft auto-fadein">
-    <h2>&lt;Thank You!&gt;</h2>
-    <p>Important contact information goes here.</p>
-  </article>
-  <p class="auto-fadein" data-config-contact>
-    <!-- populated from slide_config.json -->
-  
-</slide>
-<!--
-<slide class="logoslide dark nobackground">
-  <article class="flexbox vcenter">
-    <span><img src="images/images/HTML5_Logo.png"></span>
-  </article>
-</slide>
--->
 
 <slide class="backdrop"></slide>
 <slides class="layout-widescreen">
