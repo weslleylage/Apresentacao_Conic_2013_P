@@ -27,7 +27,7 @@ var SLIDE_CONFIG = {
     gplus: 'http://plus.google.com/1234567890',
     twitter: '@yourhandle',
     www: 'http://about.me/israelalves',
-    www: 'http://about.me/weslleylage',
+    www: 'http://www.linkedin.com/pub/israel-alves/41/960/555',
     github: 'https://github.com/alvesnogueira/Apresentacao_Conic_2013'
   }/*, {
     name: 'Second Name',
