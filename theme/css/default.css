@@ -1626,15 +1626,11 @@ Modificações
 .clear{
   clear: both;
 }
-.video{
-
-   width: 575px;
-   height: 400px;
-}
 .ptonote{
   position: absolute;
   font-size: 16px;
   margin-top: 10%;
   margin-left: 80%;
-
+   width: 600px;
+   height: 400px;
 }
