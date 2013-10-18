@@ -1627,6 +1627,7 @@ Modificações
   clear: both;
 }
 .video{
+
    width: 575px;
    height: 400px;
 }
@@ -1635,4 +1636,5 @@ Modificações
   font-size: 16px;
   margin-top: 10%;
   margin-left: 80%;
+
 }
