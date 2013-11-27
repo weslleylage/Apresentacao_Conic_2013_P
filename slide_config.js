@@ -1,7 +1,7 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'A utilização de sistemas distribuídos no desenvolvimento de </br>material instrucional para a inclusão digital do projeto</br> Aedu-linux',
+    title: 'A utilização de sistemas distribuídos no desenvolvimento de material instrucional para a inclusão digital do projeto Aedu-linux',
     subtitle: 'Autores: Weslley Lage e Israel Alves',
     //eventInfo: {
     //  title: 'Google I/O',
