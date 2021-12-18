@@ -304,14 +304,31 @@ slides > slide:not(.nobackground):before {
   content: "";
   position: absolute;
   bottom: 20px;
-  left: 60px;
-  background: url(../../images/anhanguera_mini.png) no-repeat 0 50%;
-  -webkit-background-size: 30px 30px;
-  -moz-background-size: 30px 30px;
-  -o-background-size: 30px 30px;
-  background-size: 30px 30px;
-  padding-left: 40px;
-  height: 30px;
+  left: 70px;
+  background: url(../../images/anhangueraepic_mini.png) no-repeat 0 50%;
+  -webkit-background-size: 60px 60px;
+  -moz-background-size: 60px 60px;
+  -o-background-size: 60px 60px;
+  background-size: 150px 52px;
+  padding-left: 60px;
+  height: 60px;
+  line-height: 1.9;
+
+}
+slides >:not(.nobackground2):before{
+  clear: both;
+   font-size: 12pt;
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  right: 70px;
+  
+  -webkit-background-size: 70px 60px;
+  -moz-background-size: 70px 60px;
+  -o-background-size: 70px 60px;
+  background-size: 70px 60px;
+  padding-left: 70px;
+  height: 70px;
   line-height: 1.9;
 }
 /* line 147, ../scss/default.scss */
@@ -840,6 +857,16 @@ article.smaller q:before, article.smaller q:after {
   -moz-transition: opacity 0.5s ease-in-out 0.2s;
   -o-transition: opacity 0.5s ease-in-out 0.2s;
   transition: opacity 0.5s ease-in-out 0.2s;
+  text-align: justify;
+}
+.build_fax > * {
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition: opacity 0.5s ease-in-out 0.2s;
+  -o-transition: opacity 0.5s ease-in-out 0.2s;
+  transition: opacity 0.5s ease-in-out 0.2s;
+  text-align: justify;
+  font-size: 22px;
 }
 /* line 567, ../scss/default.scss */
 .build .to-build {
@@ -972,6 +999,8 @@ article.smaller q:before, article.smaller q:after {
   box-shadow: 0 0 10px #797979;
   width: 60%;
   padding: 2em;
+  margin-left: 15%;
+  margin-top: 9%;  
 }
 
 /* line 657, ../scss/default.scss */
@@ -1318,7 +1347,7 @@ aside.gdbar.bottom {
 }
 /* line 877, ../scss/default.scss */
 aside.gdbar img {
-  width: 85px;
+  width: 150px;
   height: 85px;
   position: absolute;
   right: 0;
@@ -1327,27 +1356,34 @@ aside.gdbar img {
 
 /* line 888, ../scss/default.scss */
 .title-slide hgroup {
-  bottom: 100px;
+  bottom: 166px;
 }
 /* line 891, ../scss/default.scss */
 .title-slide hgroup h1 {
-  font-size: 65px;
+  font-size: 30px;
   line-height: 1.4;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   color: #515151;
+  margin-left: -14%;
+  text-align: justify;
+  margin-bottom: 17%;
+  width: 470px;
+
 }
 /* line 898, ../scss/default.scss */
 .title-slide hgroup h2 {
   font-size: 34px;
   color: darkgrey;
   font-weight: inherit;
+  margin-left: -15%;
 }
 /* line 904, ../scss/default.scss */
 .title-slide hgroup p {
   font-size: 20px;
   color: #797979;
   line-height: 1.3;
-  margin-top: 2em;
+  margin-left: -15%;
+  margin-bottom: -15%;
 }
 
 /* line 913, ../scss/default.scss */
@@ -1582,8 +1618,8 @@ Modificações
 
 .fundotop{
   background-image:url(../../images/topo.png);
-  width: 1010px;
-  height: 249px;
+  width: 1200px;
+  height: 299px;
   margin-left:-122px;
   position: absolute;
   top: 0px;
@@ -1591,4 +1627,26 @@ Modificações
 }
 .clear{
   clear: both;
+}
+.video{
+
+   width: 575px;
+   height: 400px;
+}
+.ptonote{
+  position: absolute;
+  font-size: 16px;
+  margin-top: 18%;
+  margin-left: 80%;
+}
+.pos{
+  margin-top: -10px;
+   
+}
+.pos p{
+  margin: 0px;
+}
+.vleft{
+ padding-right: 7px;
+ float: left;
 }
